@@ -19,6 +19,9 @@ nav{
     padding-right: 8%;
     position: relative;
 }
+nav ul{
+    align-items: center;
+}
 .logo{
     color: white;
     font-size: 35px;
@@ -100,6 +103,15 @@ h4{
 #sub:hover{
     transform: scale(1.05);
 }
+.c1{
+    position: relative;
+    margin-left: 400px;
+    top: -39px;
+}
+.c1:hover .c2{
+    display: block;
+}
+
 .about{
     width: 100%;
     padding:124px 0px;
@@ -157,4 +169,24 @@ h4{
     background-color: transparent;
     border: 2px solid rgb(221, 58, 221);
     cursor: pointer;
+}
+.container {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+  }
+  
+  .html {width: 90%; background-color: #cc2f1a;}
+  .css {width: 80%; background-color: #2196F3;}
+  .js {width: 65%; background-color: #ecb90f;}
+  .php {width: 60%; background-color: #808080;}
+
+.sb{
+    top: -200px;
 }

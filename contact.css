@@ -20,7 +20,6 @@ nav{
     padding-right: 8%;
     position: relative;
 }
-<<<<<<< HEAD
 .details h3{
     color: white;
 }
@@ -29,6 +28,7 @@ nav{
 }
 .c1{
     position: relative;
+
 }
 .c1:hover .c2{
     display: block;
