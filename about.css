@@ -4,13 +4,17 @@
     font-family: 'Akshar', sans-serif;
     box-sizing: border-box;
 }
-.me{
+/* .me{
     width: 100%;
     background-image: url(./images/Background.png.png);
     background-size: cover;
     background-position: center;
-}
+} */
 nav{
+    width: 100%;
+    background-image: url(./images/Background.png.png);
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: space-around;
