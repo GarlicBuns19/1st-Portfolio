@@ -81,12 +81,14 @@ nav ul li a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 700px;
 }
 .contact-me p{
     color: white;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 25px;
+   
 }
 .contact-me .button2{
     background-color:rgb(221, 58, 221) ;

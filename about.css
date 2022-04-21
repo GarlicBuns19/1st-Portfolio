@@ -18,6 +18,8 @@ nav{
     padding-left: 8%;
     padding-right: 8%;
     position: relative;
+    position: fixed;
+    z-index: 1;
 }
 nav ul{
     align-items: center;
