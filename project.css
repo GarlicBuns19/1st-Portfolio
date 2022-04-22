@@ -96,15 +96,15 @@ nav ul li a:hover{
     display: flex;
 }
 .social a{
-    width: 45px;
-    height: 45px;
+    width: 55px;
+    height: 55px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     background:rgb(221, 58, 221) ;
     border-radius: 50%;
-    margin: 22px 10px;
+    margin: 22px 10px 0 78px;
     color: white;
     transition: .4s;
     font-size: 20px;
@@ -115,7 +115,50 @@ nav ul li a:hover{
     border: 2px solid rgb(221, 58, 221);
     cursor: pointer;
 }
-#g1{
-    margin:auto;
-    margin-top:5%;
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
 }
+.card{
+    height: 550px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    margin: 10px ;
+    color: rgb(221, 58, 221);
+}
+h5{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+h4{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.pra i{
+    color: rgb(255, 255, 255);
+}
+.pra a{
+    background-color: rgb(221, 58, 221) ;
+}
+
