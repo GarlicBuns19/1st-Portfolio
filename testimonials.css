@@ -81,6 +81,9 @@ nav ul li a:hover{
     margin: 25px 0px;
     color: rgb(221, 58, 221);
 }
+.photo{
+    border-radius: 15px;
+}
 h5{
     color: white;
     font-size: 35px;
